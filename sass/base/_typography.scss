@@ -1,0 +1,38 @@
+a{
+    color: $color-orange;
+    text-decoration: underline;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+h1, span{
+    font-family: $montserrat-font;
+    font-weight: 700;
+    color: $color-dark-grey;
+    font-size: 69px;
+    span{
+        color: $color-orange;
+    }
+}
+
+p.hero_subtitle{
+    font-family: $poppins-font;
+    font-weight: 400;
+    color: $color-light-grey;
+    font-size: 20px;
+}
+
+p.product_title{
+    font-family: $poppins-font;
+    font-weight: 400;
+    color: $color-dark-grey;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+p.product_description{
+    font-family: $poppins-font;
+    font-weight: 300;
+    color: $color-light-grey;
+    font-size: 14px;
+}

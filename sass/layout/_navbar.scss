@@ -1,0 +1,22 @@
+nav.main_menu ul{
+    @include reset-list();
+    gap: 50px;
+    a{
+        color: $color-light-grey;
+        font-weight: 300;
+        text-decoration: none;
+        &.active, &:hover{
+            color: $color-orange;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                background-color: $color-orange;
+                height: 2px;
+                width: 80%;
+                bottom: -10px;
+                left: 7%;
+            }
+        }
+    }    
+}

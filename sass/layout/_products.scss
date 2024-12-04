@@ -1,0 +1,12 @@
+.products{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    margin-bottom: 25px;    
+}
+
+.product_box img{
+    margin-left: auto;
+    margin-right: auto;
+}
